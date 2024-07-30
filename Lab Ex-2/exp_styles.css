@@ -1,0 +1,68 @@
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #606676 40%, transparent 200%);
+    font-size: 60px;
+    font-family: cursive;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    row-gap: 30px;
+    column-gap: 10px;
+}
+.flex-container > div {
+   background-color: aliceblue;
+    margin: 10px;
+    font-size: 20px;
+    width: 270px;
+    opacity: 100%;
+}
+p{
+    width: 160px;
+    word-wrap: break-word;
+    padding: 5%;
+    font-family: cursive;
+    color: #060809;
+    background-image: linear-gradient(to top, #cae4eb 20%, transparent 100%);
+}
+#bali{
+    background-image: url(./images/mali.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#malidives{
+    background-image: url(./images/maldives.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#argentina{
+    background-image: url(./images/argentina.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#canada{
+    background-image: url(./images/canada.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#italy{
+    background-image: url(./images/italy.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#baga{
+    background-image: url(./images/baga.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#usa{
+    background-image: url(./images/USA.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#greece{
+    background-image: url(./images/greece.jpg);
+    background-size:cover;
+    background-position: center;
+}
